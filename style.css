@@ -128,3 +128,51 @@
   padding-top: 40px;
   margin-left: 700px;
 }
+
+.container3 {
+  background-color: whitesmoke;
+  height: 300px;
+}
+
+.box {
+  height: 300px;
+  max-width: 3000px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 800px;
+  height: 100px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(31, 41, 55);
+  border-radius: 20px;
+  gap: 30px;
+}
+
+.content h5 {
+  font-size: 30px;
+  color: azure;
+}
+
+.content h6 {
+  font-size: 20px;
+  color: antiquewhite;
+}
+
+.right-box {
+  width: 100px;
+  height: 25px;
+  font-size: 20px;
+  outline: 5px solid white;
+  background-color: rgb(31, 41, 55);
+  border-radius: 10px;
+  color: white;
+}
