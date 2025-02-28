@@ -175,4 +175,17 @@
   background-color: rgb(31, 41, 55);
   border-radius: 10px;
   color: white;
+  margin-left: 50px;
+}
+
+.end {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.end p {
+  color: white;
 }
