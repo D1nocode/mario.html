@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function bulkOrCut(
+        baseCals,
+        monCals,
+        tuesCals,
+        wedsCals,
+        thursCals,
+        friCals,
+        satCals,
+        sunCals
+      ) {
+        const totalCals =
+          monCals +
+          tuesCals +
+          wedsCals +
+          thursCals +
+          friCals +
+          satCals +
+          sunCals;
+
+        const totalCalsBurned = baseCals * 7;
+        const result = totalCals - totalCalsBurned;
+
+        alert(
+          `You burned ${totalCalsBurned} at maintenance, and you consumed ${totalCals}, you ended with a ${
+            result > 0 ? "bulk" : "cut"
+          } of ${result}`
+        );
+      }
+      bulkOrCut(2000, 1000, 1100, 1200, 2000, 2100, 2200, 2300);
+      //expected:11,900 expected base 14,000
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
